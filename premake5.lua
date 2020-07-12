@@ -18,7 +18,7 @@ project "GLFW"
 		"src/window.c"
 	}
 
-	filter "system:windows" {
+	filter "system:windows"
 		systemversion "latest"
 		files {
 			"src/win32_platform.h",
@@ -39,7 +39,6 @@ project "GLFW"
 		defines {
 			"_GLFW_WIN32"
 		}
-	}
 
 	filter "configurations:Debug"
 		defines { "DEBUG" }
