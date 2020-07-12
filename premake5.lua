@@ -12,9 +12,9 @@ project "GLFW"
 		"src/mappings.h",
 		"src/context.c", 
 		"src/init.c",
-		"src/input.c"
-		"src/monitor.c"
-		"src/vulkan.c"
+		"src/input.c",
+		"src/monitor.c",
+		"src/vulkan.c",
 		"src/window.c"
 	}
 
