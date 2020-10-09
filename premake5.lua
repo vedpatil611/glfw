@@ -37,7 +37,8 @@ project "GLFW"
 			"src/osmesa_context.c"
 		}
 		defines {
-			"_GLFW_WIN32"
+			"_GLFW_WIN32",
+			"_CRT_SECURE_NO_WARNINGS"
 		}
 
 	filter "system:linux"
