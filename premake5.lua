@@ -42,6 +42,10 @@ project "GLFW"
 		}
 
 	filter "system:linux"
+		pic "On"
+		staticruntime "On"
+		systemversion "latest"
+		
 		files {
 			"src/x11_platform.h",
 			"src/xkb_unicode.h",
