@@ -62,7 +62,9 @@ project "GLFW"
 			"src/posix_thread.c",
 			"src/glx_context.c",
 			"src/egl_context.c",
-			"src/osmesa_context.c"
+			"src/osmesa_context.c",
+			"linux_joystick.h",
+			"linux_joystick.c"
 		}
 		defines {
 			"_GLFW_X11"
